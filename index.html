@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Identity Vault — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0 auto; max-width: 46rem; padding: 2.5rem 1.25rem 5rem;
+           font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .sub { opacity: .7; margin-top: 0; }
+    .card { border: 1px solid rgba(128,128,128,.35); border-radius: 12px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: left; border-bottom: 1px solid rgba(128,128,128,.25); padding: .5rem .4rem; vertical-align: top; }
+    code { background: rgba(128,128,128,.15); padding: .1rem .3rem; border-radius: 4px; }
+    a { color: inherit; }
+    footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
+  </style>
+</head>
+<body>
+  <h1>Identity Vault — Privacy Policy</h1>
+  <p class="sub">Developer: Nexgen STEM School · Effective 16 September 2026</p>
+
+  <div class="card">
+    <strong>The short version:</strong> Identity Vault is a fully offline app. It has no internet
+    permission, so it cannot send your data anywhere. We do not collect, use, sell or share any
+    personal data. Everything you store stays encrypted on your own device.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Identity Vault is published by Nexgen STEM School (Nexgen Codecamp Pty Ltd), Australia.
+     Contact: <a href="mailto:apps@nexgenstemschool.com.au">apps@nexgenstemschool.com.au</a>.</p>
+
+  <h2>2. What we collect</h2>
+  <p><strong>Nothing.</strong> There is no account or sign-up, no analytics, advertising or
+     crash-reporting services, no trackers, and no third-party data-sharing SDKs. Because nothing
+     is collected, there is no personal data held by us to disclose, sell, or hand over on request.</p>
+
+  <h2>3. No internet access</h2>
+  <p>The app does not request the <code>INTERNET</code> permission. It cannot upload, sync or
+     transmit your information. It works fully in aeroplane mode.</p>
+
+  <h2>4. Where your data lives</h2>
+  <ul>
+    <li>Your entries, photos and documents are stored in an <strong>encrypted database and encrypted
+        files inside the app's private storage</strong> on your device. Other apps cannot read that storage.</li>
+    <li>Encryption keys are derived from your master password (Argon2id) and protected with the device's
+        hardware-backed keystore. An optional <strong>Sensitive PIN</strong> additionally encrypts the fields
+        and files you mark as sensitive.</li>
+    <li>We never see your master password, PIN, or any decrypted content, and we hold no copy of your data.</li>
+  </ul>
+
+  <h2>5. Permissions and why we ask</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr>
+      <td><code>USE_BIOMETRIC</code> (optional)</td>
+      <td>Lets you unlock with your fingerprint or face instead of typing the password. Biometric
+          matching is performed by Android; biometric data never leaves your device and is never
+          available to the app.</td>
+    </tr>
+  </table>
+  <p>When you attach a photo or document, the app uses Android's system file picker, so you choose a
+     specific file — the selected file is then copied <em>into</em> your encrypted vault. The app does
+     not request broad storage access.</p>
+
+  <h2>6. Backups and exports</h2>
+  <p>The app does not upload backups anywhere. A backup only exists if <strong>you</strong> create one:
+     the export produces an encrypted <code>.ivault</code> file, and you choose where it goes. Once you
+     save or share that file (for example, to your own cloud drive), it is outside the app — and outside
+     our control — so protect it as you would any sensitive document.</p>
+
+  <h2>7. Deleting your data</h2>
+  <ul>
+    <li>Delete individual items, photos or documents in the app.</li>
+    <li>Use Settings to clear vault contents; the app's anti-theft settings (auto-wipe after failed
+        attempts, auto-destroy on inactivity) can erase everything automatically.</li>
+    <li><strong>Uninstalling the app removes all app data from the device.</strong> Device backups for
+        this app are disabled, so your vault is not copied into cloud backups.</li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>The app is intended for adults (18+) and is not directed at children.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published here with a new "last updated" date.
+     Material changes will also be noted in the app's store listing.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions about this policy:
+     <a href="mailto:apps@nexgenstemschool.com.au">apps@nexgenstemschool.com.au</a>.</p>
+
+  <footer>
+    <p>Identity Vault is an offline, encrypted vault for identity items, cards and documents.
+       This page is the app's privacy policy as required by Google Play.</p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.nexgen.identityvault">View on Google Play</a></p>
+  </footer>
+</body>
+</html>
