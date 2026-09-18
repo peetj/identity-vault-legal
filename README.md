@@ -3,6 +3,7 @@
 Public legal pages for the **Identity Vault** Android app (published by Nexgen STEM School).
 
 - **Privacy policy:** https://peetj.github.io/identity-vault-legal/
+- **Terms of Service:** https://peetj.github.io/identity-vault-legal/terms.html
 
 Source of truth lives in the app repo (`docs/store/PRIVACY_POLICY.md`); this repo is the publicly
 hosted copy required by Google Play. Update both together if the app's data practices ever change.
